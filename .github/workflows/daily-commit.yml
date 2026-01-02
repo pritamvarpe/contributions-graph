@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Make daily commit
       run: |
-        git config user.name "GitHub Action"
+        git config user.name "pritamvarpe"
         git config user.email "pritamcvarpe71@gmail.com"
         echo "Daily activity $(date)" >> daily_activity.txt
         git add daily_activity.txt
